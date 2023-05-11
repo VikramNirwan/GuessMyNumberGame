@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 5rem;
+  background-color: rgb(30, 66, 80);
+}
+
+.content {
+  background-color: rgb(56, 140, 179);
+  padding: 2rem;
+  height: 80vh;
+  border: 0.5rem solid black;
+  border-radius: 1rem;
+}
+
+.h-s-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.h-s-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  font-size: 4rem;
+}
+
+.show-number {
+  margin: 5rem;
+  background-color: rgb(255, 255, 255);
+  height: 15rem;
+  width: 20rem;
+  text-align: center;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  font-size: 10rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.m-s-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.m-s-right {
+  font-size: 1.4rem;
+}
+
+.check-btn {
+  width: 10rem;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+
+.again-btn {
+  width: 12rem;
+  height: 3rem;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+
+.check-number {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  text-align: center;
+  height: 5rem;
+  width: 10rem;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+}
+
+/* For small screens */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 2rem;
+  }
+
+  .content {
+    height: 90vh;
+  }
+
+  .h-s-bot {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .show-number {
+    margin: 3rem;
+    height: 12rem;
+    width: 16rem;
+    font-size: 8rem;
+  }
+
+  .main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .m-s-left {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .m-s-right {
+    font-size: 1.2rem;
+  }
+
+  .check-btn {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .again-btn {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  .check-number {
+    font-size: 2rem;
+    height: 3rem;
+    width: 8rem;
+  }
+}
+
+/* For medium screens */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  body {
+    margin: 3rem;
+  }
+
+  .content {
+    height: 80vh;
+  }
+
+  .h-s-bot {
+    margin: 1.5rem 0;
+    font-size: 3rem;
+  }
+
+  .show-number {
+    margin: 4rem;
+    height: 13rem;
+    width: 18rem;
+    font-size: 8rem;
+  }
+
+  .check-btn {
+    width: 9rem;
+    height: 2.2rem;
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+  }
+
+  .again-btn {
+    width: 11rem;
+    height: 2.8rem;
+    font-size: 1.7rem;
+  }
+
+  .check-number {
+    font-size: 2.5rem;
+    height: 4rem;
+    width: 9rem;
+  }
+}
+
+/* For large screens */
+@media only screen and (min-width: 1024px) {
+  body {
+    margin: 10rem;
+  }
+
+  .content {
+    height: 80vh;
+    padding: 4rem;
+    border-radius: 2rem;
+  }
+
+  .h-s-top {
+    font-size: 4rem;
+  }
+
+  .h-s-bot {
+    margin: 2rem 0;
+    font-size: 8rem;
+  }
+
+  .show-number {
+    margin: 5rem;
+    height: 20rem;
+    width: 25rem;
+    font-size: 16rem;
+    border-radius: 1rem;
+  }
+
+  .check-btn {
+    width: 20rem;
+    height: 5rem;
+    margin-top: 1.5rem;
+    font-size: 4rem;
+  }
+
+  .again-btn {
+    width: 20rem;
+    height: 5rem;
+    font-size: 4rem;
+  }
+
+  .check-number {
+    font-size: 4rem;
+    height: 5rem;
+    width: 20rem;
+  }
+
+  .m-s-right {
+    font-size: 3rem;
+  }
+}
